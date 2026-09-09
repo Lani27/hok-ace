@@ -1,0 +1,22 @@
+1
+00:00:00,000 --> 00:00:02,540
+Keyword: Triumph
+
+2
+00:00:02,540 --> 00:00:07,500
+Heroes with Triumph grant their benefits
+after you win a battle.
+
+3
+00:00:07,500 --> 00:00:12,580
+For example, Niu Mo's Triumph
+grants 1 Energy when you win.
+
+4
+00:00:12,580 --> 00:00:15,680
+Early on, if you expect
+your lineup to win,
+
+5
+00:00:15,680 --> 00:00:19,692
+deploy Niu Mo to earn extra Energy.

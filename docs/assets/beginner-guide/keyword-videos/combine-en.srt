@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:02,120
+Keyword: Combine
+
+2
+00:00:02,120 --> 00:00:06,840
+Play a copy of a hero already deployed
+to trigger Combine.
+
+3
+00:00:06,840 --> 00:00:10,440
+Each Combine raises that hero's
+level by 3.
+
+4
+00:00:10,440 --> 00:00:12,380
+After combining three times,
+
+5
+00:00:12,380 --> 00:00:16,620
+you receive a Trick card
+at your current tactician level.
+
+6
+00:00:16,620 --> 00:00:24,428
+The small card icon on the right
+shows your Combine progress.

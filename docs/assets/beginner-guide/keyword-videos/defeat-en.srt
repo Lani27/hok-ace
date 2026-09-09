@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:02,600
+Keyword: Defeat
+
+2
+00:00:02,600 --> 00:00:07,240
+Heroes with Defeat trigger
+their card effects after you lose.
+
+3
+00:00:07,240 --> 00:00:10,400
+For example, Mengqi's Defeat upgrades
+the Hero Exchange Ticket
+
+4
+00:00:10,400 --> 00:00:13,560
+that you receive when you sell him.
+
+5
+00:00:13,560 --> 00:00:15,960
+If you want a higher-tier hero,
+
+6
+00:00:15,960 --> 00:00:20,480
+losing a few early rounds
+can upgrade that ticket,
+
+7
+00:00:20,480 --> 00:00:24,002
+giving you a chance to get
+your desired hero sooner.

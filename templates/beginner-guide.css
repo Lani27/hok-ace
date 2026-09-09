@@ -4,3 +4,4 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{.site-nav,.tabs,.slide-controls,.zoom-note,.search{display:none}.panel{box-shadow:none}body,main{background:white}.panel[hidden],.slide[hidden],.skill-panel[hidden]{display:block!important}.tactician{display:block}.portrait{display:none}section{break-before:page}dialog{display:none}}
 #video-dialog{width:1100px}#video-player{width:100%;aspect-ratio:16/9;background:#151d30}
+.keyword-actions{display:flex;flex-direction:column;align-items:flex-start;gap:12px;margin-top:12px}.keyword-actions .button{font-size:14px;padding:9px 12px}#subtitled-video-dialog{width:1100px}#subtitled-video-dialog video{display:block;width:100%;max-height:70vh;aspect-ratio:16/9;background:#151d30}#subtitled-video-dialog .status:empty{display:none}

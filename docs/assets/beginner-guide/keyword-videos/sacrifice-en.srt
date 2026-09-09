@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:02,360
+Keyword: Sacrifice
+
+2
+00:00:02,360 --> 00:00:05,860
+Heroes with Sacrifice trigger
+when they die in combat,
+
+3
+00:00:05,860 --> 00:00:09,100
+granting their effect's
+benefits to your lineup.
+
+4
+00:00:09,100 --> 00:00:14,740
+For example, Su Lie permanently
+gains levels when he dies.
+
+5
+00:00:14,740 --> 00:00:18,838
+Dun Shan gives you an Ancient Coin
+when he dies.

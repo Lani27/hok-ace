@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:02,220
+Keyword: Exit
+
+2
+00:00:02,220 --> 00:00:05,640
+Sell a deployed hero with Exit
+
+3
+00:00:05,640 --> 00:00:08,000
+to receive its benefit immediately.
+
+4
+00:00:08,000 --> 00:00:10,680
+For example, selling a deployed Mengqi
+
+5
+00:00:10,680 --> 00:00:14,320
+gives you a Hero Exchange Ticket.
+
+6
+00:00:14,320 --> 00:00:20,673
+Yang Yuhuan gives you an effect card
+that advances a hero's awakening.

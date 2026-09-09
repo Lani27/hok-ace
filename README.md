@@ -17,6 +17,7 @@ docs/                     Public GitHub Pages files
   guides/                 Translated interactive guides
   assets/launch/          English images for the launch announcement
   assets/beginner-guide/   Localized beginner-guide artwork
+    keyword-videos/       Short MP4 demonstrations with burned-in English subtitles
 english-patch/            Reserved for English Patch files
   translations/           Future patch translation data
 templates/                Shared unofficial banner and index source
@@ -63,14 +64,36 @@ and 12 expert-video listings. Its 52 images containing text were localized with
 ImageGen; original portraits, skill icons, and the background are retained.
 Selectable English text, including all 35 featured hero-card effects, accompanies
 the lineup diagrams. Small labels in the AI-edited artwork can remain imperfect;
-the text guide is the reference for precise names and effects. Linked videos keep
-their original Chinese audio and on-screen text and are labeled accordingly.
+the text guide is the reference for precise names and effects. The 13 keyword
+demonstrations have separate English-subtitled MP4 versions alongside their
+original Chinese links. Subtitles translate the narration; the Chinese audio
+and game interface are retained. Other linked videos remain in Chinese.
 The official Tencent SuperPlayer script loads only when a video is selected;
 video playback needs an internet connection. The page includes an official-source
 fallback link if the player cannot load.
 Lineup codes are preserved exactly from the official page; importing them in
 the game has not been tested. This is a Chinese-server snapshot, so game updates
 and international-release terminology may differ.
+
+### Keyword video subtitles
+
+The short dictionary clips were transcribed with Whisper large-v3-turbo, then
+translated and checked against the source captions, including hero-name corrections.
+Edit the timed English copy in `tools/keyword_subtitles.json`. Keep original
+720p clips outside the repository, named `deploy.mp4`, `fleeting.mp4`, etc.
+Their Tencent video IDs are listed in `KEYWORDS` in `tools/beginner_content.py`.
+To rebuild with FFmpeg and FFprobe installed:
+
+```sh
+python tools/build_keyword_videos.py --originals /path/to/originals
+python tools/build_beginner_guide.py
+```
+
+The renderer produces MP4s and English SRT files in
+`docs/assets/beginner-guide/keyword-videos/`. Subtitles are burned into the video
+over the original narration captions, with an unofficial translation label.
+The website loads a clip only when selected, using the browser's video player.
+Original Chinese demonstrations remain available in the Tencent player.
 
 ## English Patch
 

@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:02,520
+Keyword: Flash
+
+2
+00:00:02,520 --> 00:00:04,540
+Heroes with Flash teleport
+when combat begins
+
+3
+00:00:04,540 --> 00:00:08,440
+to the mirrored position
+on the enemy's battlefield.
+
+4
+00:00:08,440 --> 00:00:11,080
+These heroes usually deal high damage.
+
+5
+00:00:11,080 --> 00:00:16,920
+They bypass frontline tanks
+to target the enemy's backline carries.
+
+6
+00:00:16,920 --> 00:00:19,740
+Special equipment from talents
+can also grant Flash
+
+7
+00:00:19,740 --> 00:00:25,025
+to the hero wearing it.

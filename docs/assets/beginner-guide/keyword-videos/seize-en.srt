@@ -1,0 +1,32 @@
+1
+00:00:00,000 --> 00:00:02,220
+Keyword: Seize
+
+2
+00:00:02,220 --> 00:00:04,280
+When a hero with Seize is played,
+
+3
+00:00:04,280 --> 00:00:08,280
+it takes up to 10 levels from one
+random allied hero within 1 tile.
+
+4
+00:00:08,280 --> 00:00:12,920
+If that ally has fewer than 10 levels,
+it takes only the levels above 1.
+
+5
+00:00:12,920 --> 00:00:15,300
+The affected hero always
+keeps at least 1 level.
+
+6
+00:00:15,300 --> 00:00:19,140
+Pay close attention to placement
+when deploying a Seize hero.
+
+7
+00:00:19,140 --> 00:00:22,593
+Avoid taking levels from your main carry
+and weakening your core damage.

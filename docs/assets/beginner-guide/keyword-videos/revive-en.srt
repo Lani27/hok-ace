@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:01,820
+Keyword: Revive
+
+2
+00:00:01,820 --> 00:00:05,620
+Heroes with Revive return to life
+after their first death,
+
+3
+00:00:05,620 --> 00:00:07,760
+recovering 50% of their Health.
+
+4
+00:00:07,760 --> 00:00:11,440
+Heroes without innate Revive
+can gain it too,
+
+5
+00:00:11,440 --> 00:00:13,960
+through Taiyi Zhenren,
+
+6
+00:00:13,960 --> 00:00:17,800
+Sage's Sanctuary equipment
+or certain talents.
+
+7
+00:00:17,800 --> 00:00:20,200
+Heroes that already have Revive
+
+8
+00:00:20,200 --> 00:00:24,812
+can stack extra uses through these effects
+to revive multiple times.

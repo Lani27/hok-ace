@@ -1,0 +1,33 @@
+1
+00:00:00,000 --> 00:00:01,940
+Keyword: Deploy
+
+2
+00:00:01,940 --> 00:00:06,800
+Play a hero card with Deploy
+to gain its benefit immediately.
+
+3
+00:00:06,800 --> 00:00:10,180
+Different Deploy heroes
+grant different bonuses.
+
+4
+00:00:10,180 --> 00:00:13,580
+For example, Zhou Yu raises
+your whole team's levels.
+
+5
+00:00:13,580 --> 00:00:16,560
+Sun Shangxiang grants
+free shop refreshes.
+
+6
+00:00:16,560 --> 00:00:19,620
+Selling the hero does not
+remove the Deploy benefit.
+
+7
+00:00:19,620 --> 00:00:24,855
+Keep playing and selling Deploy heroes
+to gain their benefits repeatedly.

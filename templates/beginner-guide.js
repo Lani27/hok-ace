@@ -62,6 +62,33 @@ document.querySelectorAll('[data-video]').forEach(link => link.addEventListener(
 }));
 videoDialog.querySelector('button').addEventListener('click', () => videoDialog.close());
 videoDialog.addEventListener('close', () => player?.stop());
+
+const subtitledDialog = document.getElementById('subtitled-video-dialog');
+const subtitledVideo = subtitledDialog.querySelector('video');
+const subtitledStatus = subtitledDialog.querySelector('.status');
+document.querySelectorAll('[data-subtitled-video]').forEach(link => link.addEventListener('click', async event => {
+  event.preventDefault();
+  document.getElementById('subtitled-video-title').textContent = `${link.dataset.subtitledVideo} · English subtitles`;
+  subtitledVideo.setAttribute('aria-label', `${link.dataset.subtitledVideo} demonstration with English subtitles`);
+  subtitledDialog.querySelector('.download-video').href = link.href;
+  subtitledStatus.textContent = '';
+  subtitledVideo.src = link.href;
+  subtitledDialog.showModal();
+  try {
+    await subtitledVideo.play();
+  } catch {
+    if (subtitledDialog.open && !subtitledVideo.error) subtitledStatus.textContent = 'Press Play to start the video.';
+  }
+}));
+subtitledVideo.addEventListener('error', () => {
+  if (subtitledDialog.open) subtitledStatus.textContent = 'The video could not load. Try the download link below or the original Chinese demonstration.';
+});
+subtitledDialog.querySelector('button').addEventListener('click', () => subtitledDialog.close());
+subtitledDialog.addEventListener('close', () => {
+  subtitledVideo.pause();
+  subtitledVideo.removeAttribute('src');
+  subtitledVideo.load();
+});
 document.querySelectorAll('.zoom').forEach(button => button.addEventListener('click', () => {
   const source = button.querySelector('img');
   imageDialog.querySelector('img').src = source.src;

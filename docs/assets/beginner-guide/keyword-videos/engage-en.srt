@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:02,220
+Keyword: Engage
+
+2
+00:00:02,220 --> 00:00:05,320
+Heroes with Engage,
+such as Yaria, trigger automatically
+
+3
+00:00:05,320 --> 00:00:09,500
+as soon as both players are ready
+and combat begins.
+
+4
+00:00:09,500 --> 00:00:15,420
+Their effects grant
+bonuses to your lineup.
+
+5
+00:00:15,420 --> 00:00:19,100
+Lu Bu grants lifesteal
+to Three Kingdoms heroes.
+
+6
+00:00:19,100 --> 00:00:22,892
+Consort Yu permanently raises allies'
+levels based on the number of Totems.

@@ -1,0 +1,36 @@
+1
+00:00:00,000 --> 00:00:02,100
+Keyword: Prepare
+
+2
+00:00:02,100 --> 00:00:05,580
+Heroes with Prepare trigger their effects
+in each round's preparation phase,
+
+3
+00:00:05,580 --> 00:00:09,320
+granting the corresponding
+benefits to your lineup.
+
+4
+00:00:09,320 --> 00:00:13,560
+A Prepare hero you just played,
+such as Cao Cao,
+
+5
+00:00:13,560 --> 00:00:15,900
+will not trigger Prepare immediately.
+
+6
+00:00:15,900 --> 00:00:19,100
+It must wait until
+the next preparation phase.
+
+7
+00:00:19,100 --> 00:00:22,340
+Certain effect cards or hero cards
+can trigger Prepare immediately,
+
+8
+00:00:22,340 --> 00:00:24,982
+without waiting for the next round.
