@@ -23,7 +23,7 @@
     [
       13.58,
       16.56,
-      "Sun Shangxiang grants\nfree shop refreshes."
+      "Lady Sun grants\nfree shop refreshes."
     ],
     [
       16.56,
@@ -40,12 +40,12 @@
     [
       0,
       1.9,
-      "Keyword: Engage"
+      "Keyword: Initiate"
     ],
     [
       2.22,
       5.32,
-      "Heroes with Engage,\nsuch as Yaria, trigger automatically"
+      "Heroes with Initiate,\nsuch as Yaria, trigger automatically"
     ],
     [
       5.32,
@@ -134,7 +134,7 @@
     [
       14.74,
       18.7,
-      "Dun Shan gives you an Ancient Coin\nwhen he dies."
+      "Dunshan gives you an Ancient Coin\nwhen he dies."
     ]
   ],
   "combine": [
@@ -161,7 +161,7 @@
     [
       12.38,
       16.62,
-      "you receive a Trick card\nat your current tactician level."
+      "you receive a Trick card\nat your current Chessplayer level."
     ],
     [
       16.62,
@@ -210,12 +210,12 @@
     [
       0,
       1.8,
-      "Keyword: Seize"
+      "Keyword: Steal"
     ],
     [
       2.22,
       4.28,
-      "When a hero with Seize is played,"
+      "When a hero with Steal is played,"
     ],
     [
       4.28,
@@ -235,7 +235,7 @@
     [
       15.3,
       19.14,
-      "Pay close attention to placement\nwhen deploying a Seize hero."
+      "Pay close attention to placement\nwhen deploying a Steal hero."
     ],
     [
       19.14,
@@ -272,7 +272,7 @@
     [
       16.84,
       20.9,
-      "Want to keep those levels?\nTry Ming Shiyin."
+      "Want to keep those levels?\nTry Ming."
     ],
     [
       20.9,
@@ -432,12 +432,12 @@
     [
       0,
       2.22,
-      "Keyword: Exit"
+      "Keyword: Withdraw"
     ],
     [
       2.22,
       5.64,
-      "Sell a deployed hero with Exit"
+      "Sell a deployed hero with Withdraw"
     ],
     [
       5.64,
@@ -457,7 +457,7 @@
     [
       14.32,
       18.68,
-      "Yang Yuhuan gives you an effect card\nthat advances a hero's awakening."
+      "Yuhuan gives you an effect card\nthat advances a hero's awakening."
     ]
   ]
 }

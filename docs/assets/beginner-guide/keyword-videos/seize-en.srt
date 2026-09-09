@@ -1,10 +1,10 @@
 1
 00:00:00,000 --> 00:00:02,220
-Keyword: Seize
+Keyword: Steal
 
 2
 00:00:02,220 --> 00:00:04,280
-When a hero with Seize is played,
+When a hero with Steal is played,
 
 3
 00:00:04,280 --> 00:00:08,280
@@ -24,7 +24,7 @@ keeps at least 1 level.
 6
 00:00:15,300 --> 00:00:19,140
 Pay close attention to placement
-when deploying a Seize hero.
+when deploying a Steal hero.
 
 7
 00:00:19,140 --> 00:00:22,593

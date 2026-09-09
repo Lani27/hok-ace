@@ -1,0 +1,44 @@
+{
+  "beginner-guide/guide_1_2-en.png": [
+    {"kind":"text", "box":[118,851,902,869], "text":"Prioritize awakening Cao Cao and Cai Yan. If Change of Commander appears, buy two Lady Sun cards.", "size":16, "font":"LiberationSansNarrow-Regular.ttf", "color":"#155ab4", "align":"left"},
+    {"kind":"pill", "box":[1005,785,1048,914], "text":"Talents", "size":19, "font":"arialbd.ttf", "rotate":270, "background":"#397bc8", "color":"#ffffff"}
+  ],
+  "beginner-guide/guide_1_3-en.png": [
+    {"kind":"copy", "source":[185,1215,249,1237], "destination":[185,1360], "text":"Zhao Yun"},
+    {"kind":"label", "box":[578,906,637,925], "text":"Yixing", "size":13, "font":"LiberationSansNarrow-Bold.ttf", "background":"#0b161e", "color":"#ffffff"}
+  ],
+  "beginner-guide/guide_2_3-en.png": [
+    {"kind":"text", "box":[534,402,580,420], "text":"Upgrade", "size":12, "font":"LiberationSansNarrow-Bold.ttf", "color":"#ffffff", "clear_rectangle":true},
+    {"kind":"text", "box":[48,444,108,461], "text":"Triggers", "size":13, "font":"LiberationSansNarrow-Regular.ttf", "color":"#376ab8", "clear_rectangle":true}
+  ],
+  "beginner-guide/guide_4_2-en.png": [
+    {"kind":"text", "box":[1530,257,1619,279], "text":"Shadow Fang", "size":16, "font":"LiberationSansNarrow-Regular.ttf", "color":"#155ab4"}
+  ],
+  "beginner-guide/guide_4_3-en.png": [
+    {"kind":"insert", "box":[650,1293,710,1361], "asset":"tools/image-inserts/mulan.png"},
+    {"kind":"label", "box":[649,1359,711,1382], "text":"Mulan", "size":14, "font":"LiberationSansNarrow-Bold.ttf", "background":"#0b161e", "color":"#ffffff"},
+    {"kind":"label", "box":[579,1359,637,1381], "text":"Li Xin", "size":14, "font":"LiberationSansNarrow-Bold.ttf", "background":"#0b161e", "color":"#ffffff"}
+  ],
+  "beginner-guide/guide_5_2-en.png": [
+    {"kind":"text", "box":[230,825,884,845], "text":"Reach level 3 and collect Mi Yue, Xi Shi, Fuzi, and Bai Qi. Awaken Mi Yue, then reach level 4.", "size":17, "font":"LiberationSansNarrow-Regular.ttf", "color":"#155ab4", "align":"left"}
+  ],
+  "beginner-guide/step2-en.png": [
+    {"kind":"text", "box":[226,688,650,713], "text":"Exclusive Position for Chessplayers", "size":20, "font":"arial.ttf", "color":"#e8e9f0", "light_text":true, "align":"left"}
+  ],
+  "beginner-guide/swiper2_1-en.png": [
+    {"kind":"text", "box":[806,194,1290,229], "text":"Card tier scales with Chessplayer level.", "size":25, "font":"arialbd.ttf", "color":"#ffffff", "clear_rectangle":true, "align":"left"},
+    {"kind":"text", "box":[699,545,766,560], "text":"CHESSPLAYER", "size":10, "font":"LiberationSansNarrow-Regular.ttf", "color":"#79929e", "light_text":true, "threshold":90},
+    {"kind":"text", "box":[431,639,955,676], "text":"Click here to view your Chessplayer skill.", "size":26, "font":"LiberationSansNarrow-Bold.ttf", "color":"#ffffff", "clear_rectangle":true}
+  ],
+  "beginner-guide/guide_5_3-en.png": [
+    {"kind":"text", "box":[214,2004,707,2046], "clear_box":[211,2003,708,2030], "text":"Receive one Tactics Card. At Chessplayer level 5, it is\nguaranteed to be an advanced Tactics Card.", "size":15, "font":"LiberationSansNarrow-Regular.ttf", "color":"#3265b7", "align":"left", "clear_rectangle":true}
+  ],
+  "beginner-guide/video_poster_1-en.png": [
+    {"kind":"label", "box":[661,720,757,746], "text":"Xiao Qiao", "size":16, "font":"LiberationSansNarrow-Bold.ttf", "background":"#302528", "color":"#ffffff"}
+  ],
+  "beginner-guide/video_poster_5-en.png": [
+    {"kind":"original", "revision":"b198a0ef590e1f49b8621e7970afeb3c8083467d", "file":"beginner-guide/video_poster_5-en.png", "box":[93,410,897,561]},
+    {"kind":"original", "revision":"b198a0ef590e1f49b8621e7970afeb3c8083467d", "file":"beginner-guide/video_poster_5-en.png", "box":[1045,640,1470,788]},
+    {"kind":"original", "revision":"b198a0ef590e1f49b8621e7970afeb3c8083467d", "file":"beginner-guide/video_poster_5-en.png", "box":[639,749,766,808]}
+  ]
+}

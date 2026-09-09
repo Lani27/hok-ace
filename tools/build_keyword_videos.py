@@ -10,7 +10,7 @@ from pathlib import Path
 import subprocess
 import tempfile
 
-from beginner_content import KEYWORDS
+from beginner_content import KEYWORDS, keyword_video_slug
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / 'docs/assets/beginner-guide/keyword-videos'
@@ -36,12 +36,12 @@ def probe(path):
 
 def build(originals, only=None):
     subtitles = json.loads((ROOT / 'tools/keyword_subtitles.json').read_text(encoding='utf-8'))
-    expected = {name.lower().replace(' ', '-') for name, _, _ in KEYWORDS}
+    expected = {keyword_video_slug(name) for name, _, _ in KEYWORDS}
     if set(subtitles) != expected:
         raise ValueError('Subtitle keys must match every dictionary keyword.')
     OUTPUT.mkdir(parents=True, exist_ok=True)
     for name, _, _ in KEYWORDS:
-        slug = name.lower().replace(' ', '-')
+        slug = keyword_video_slug(name)
         if only and slug != only:
             continue
         source = originals / f'{slug}.mp4'
@@ -103,6 +103,6 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--originals', type=Path, required=True)
-    parser.add_argument('--only', choices=[n.lower().replace(' ', '-') for n, _, _ in KEYWORDS])
+    parser.add_argument('--only', choices=[keyword_video_slug(n) for n, _, _ in KEYWORDS])
     args = parser.parse_args()
     build(args.originals.resolve(), args.only)

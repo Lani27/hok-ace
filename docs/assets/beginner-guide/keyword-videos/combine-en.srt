@@ -19,7 +19,7 @@ After combining three times,
 5
 00:00:12,380 --> 00:00:16,620
 you receive a Trick card
-at your current tactician level.
+at your current Chessplayer level.
 
 6
 00:00:16,620 --> 00:00:24,428

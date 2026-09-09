@@ -59,7 +59,7 @@ differences may remain. Original game content and artwork belong to their
 respective owners; their inclusion does not grant a license to those assets.
 
 The beginner guide translates the [official September 2026 guide](https://wxq.qq.com/cp/a202609xszy/index.html),
-including 21 rule slides, five starter lineups, five tacticians, 13 keywords,
+including 21 rule slides, five starter lineups, five Chessplayers, 13 keywords,
 and 12 expert-video listings. Its 52 images containing text were localized with
 ImageGen; original portraits, skill icons, and the background are retained.
 Selectable English text, including all 35 featured hero-card effects, accompanies
@@ -94,6 +94,31 @@ The renderer produces MP4s and English SRT files in
 over the original narration captions, with an unofficial translation label.
 The website loads a clip only when selected, using the browser's video player.
 Original Chinese demonstrations remain available in the Tencent player.
+
+### Glossary checks
+
+The English patch's `src/wxq_patch/hok_terminology.py` is the terminology authority
+for hero names, Chessplayers, mechanics, equipment, and reviewed skills. Check
+page source, generated HTML, and subtitle copy before publishing:
+
+```sh
+python tools/check_terminology.py --glossary /path/to/src/wxq_patch/hok_terminology.py
+```
+
+`tools/glossary_aliases.json` records the older English spellings audited against
+that glossary. Image lettering also needs OCR and visual review; a passing text
+check alone does not verify images. Keep the established video filenames when
+renaming display terms: Initiate uses `engage-en.mp4`, Steal uses `seize-en.mp4`,
+and Withdraw uses `exit-en.mp4`, preserving existing public links.
+
+The reviewed image revision and checksums are recorded in
+`tools/image_glossary_review.json`; the checker flags later image or glossary
+changes for another review. `tools/image_recreation_prompts.json` preserves the
+ImageGen prompts and original Git revision. Small, individually reviewed repairs
+are recorded in `tools/image_lettering_repairs.json` and can be applied to saved
+candidates with `tools/finish_image_lettering.py --input-dir /path/to/candidates`
+(Pillow, NumPy, OpenCV, and the specified Windows fonts are required). These are
+explicit repairs to reviewed areas, rather than automatic OCR placement.
 
 ## English Patch
 

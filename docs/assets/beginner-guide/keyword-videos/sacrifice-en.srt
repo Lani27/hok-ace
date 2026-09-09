@@ -19,5 +19,5 @@ gains levels when he dies.
 
 5
 00:00:14,740 --> 00:00:18,838
-Dun Shan gives you an Ancient Coin
+Dunshan gives you an Ancient Coin
 when he dies.
