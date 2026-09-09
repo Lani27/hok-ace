@@ -79,4 +79,3 @@ CARD_EFFECTS = [
   ('Zhuang Zhou', 'Deploy: Gain 2 levels and receive one Demolition Tactics Card.'),
   ('Luban No. 7', 'Whenever your heroes combine three times, receive one random Tactics Card.')]
 ]
-
