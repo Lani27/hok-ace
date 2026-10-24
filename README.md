@@ -18,7 +18,7 @@ docs/                     Public GitHub Pages files
   assets/launch/          English images for the launch announcement
   assets/beginner-guide/   Localized beginner-guide artwork
     keyword-videos/       Short MP4 demonstrations with burned-in English subtitles
-english-patch/            Reserved for English Patch files
+english-patch/            English Patch downloads and setup
   translations/           Future patch translation data
 templates/                Shared unofficial banner and index source
 tools/build_launch_page.py  Launch article source and site builder
@@ -122,5 +122,8 @@ explicit repairs to reviewed areas, rather than automatic OCR placement.
 
 ## English Patch
 
-See [english-patch/](english-patch/). No patch binaries or translation payloads
-have been uploaded yet.
+See [english-patch/](english-patch/) for downloads and setup instructions.
+
+- **Windows PC / Android over USB:** [Patcher 1.4.11](https://github.com/Lani27/hok-ace/releases/download/v1.4.11/HOK-Ace-English-Patcher-1.4.11.exe).
+- **Android on-phone Shizuku:** [Patcher 1.4.11-preview](https://github.com/Lani27/hok-ace/releases/download/v1.4.11/HOK-Ace-English-Patcher-1.4.11-preview.apk).
+- [Release notes, checksums, and verification](https://github.com/Lani27/hok-ace/releases/tag/v1.4.11).
